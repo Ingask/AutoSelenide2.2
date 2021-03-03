@@ -1,6 +1,6 @@
 image: Ubuntu  # образ для сборки
 
-stack: jdk 11  # версия JDK
+stack: jdk 1.8  # версия JDK
 
 branches:
   only:
@@ -10,7 +10,7 @@ build: off  # будем использовать свой скрипт сбор
 
 install:
   -java -jar ./artifacts/app-card-delivery.jar &
-  - chmod +x gradlew
+ // - chmod +x gradlew
 
 build_script:
   - ./gradlew test --info "-Dselenide.headless=true"
