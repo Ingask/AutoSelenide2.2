@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/1evvfepdcwdqc57m?svg=true)](https://ci.appveyor.com/project/Inga/autoselenide2-2)
