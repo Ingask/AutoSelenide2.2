@@ -14,7 +14,7 @@
 @rem limitations under the License.
 @rem
 
-set JAVA_HOME=I:\DOWNLOADS\jdk-14.0.2_windows-x64_bin.exe
+//set JAVA_HOME=I:\DOWNLOADS\jdk-14.0.2_windows-x64_bin.exe
 
 @if "%DEBUG%" == "" @echo off
 @rem ##########################################################################
